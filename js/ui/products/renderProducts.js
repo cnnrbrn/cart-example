@@ -52,7 +52,7 @@ function createProduct(product) {
   productContainer.appendChild(imageElement);
   productContainer.appendChild(titleElement);
   productContainer.appendChild(descriptionElement);
-  // productContainer.appendChild(addToCartButton);
+  productContainer.appendChild(addToCartButton);
 
   return productContainer;
 }
